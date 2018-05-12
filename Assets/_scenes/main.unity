@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 53049588}
   - component: {fileID: 53049587}
   m_Layer: 0
-  m_Name: background
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,6 +241,10 @@ Prefab:
     - target: {fileID: 1524670456989564, guid: 89c5826063643e34b95023f57bf15def, type: 2}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1524670456989564, guid: 89c5826063643e34b95023f57bf15def, type: 2}
+      propertyPath: m_Name
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89c5826063643e34b95023f57bf15def, type: 2}
@@ -507,6 +511,10 @@ Prefab:
     - target: {fileID: 4828322023587166, guid: 1c06a3132877e8a4d8f15118a872d3c8, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.46159306
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843313886207724, guid: 1c06a3132877e8a4d8f15118a872d3c8, type: 2}
+      propertyPath: m_Name
+      value: Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c06a3132877e8a4d8f15118a872d3c8, type: 2}
